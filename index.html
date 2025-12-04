@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rick y Morty Explorer</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-grid">
+            <h1 class="titulo">Rick y Morty Explorer</h1>
+                <label for="theme-toggle" class="switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider"></span>
+                </label>
+        </div>
+    </header>
+
+    <main class="container main">
+        <section class="buscador">
+            <form id="formulario">
+                <input type="text" id="nombre-personaje" name="nombre-personaje" placeholder="Buscar por nombre..." required>
+                <button type="submit" id="btn-buscador">Buscar</button>
+                <button type="button" id="btn-limpiar">Limpiar</button>
+
+            </form>
+            <div class="filtro" id="filtro">
+                <select name="estados" id="estados">
+                    <option value="0">todos los estados</option>
+                    <option value="1">vivo</option>
+                    <option value="2">muerto</option>
+                    <option value="3">desconocido</option>
+                </select>
+            </div>
+        </section>
+        <section id="results" class="results" aria-live="polite">
+            <!-- Tarjetas renderizadas aquí -->
+        </section>
+        <div id="pagination" class="pagination">
+            <button id="prev-btn" disabled>Anterior</button>
+            <span id="page-info">Página 1</span>
+            <button id="next-btn">Siguiente</button>
+        </div>
+    </main>   
+    <footer class="site-footer">
+        <div class="container">
+            <p>Proyecto integrador • Módulo 1 — JavaScript Junior Developer</p>
+            <p>Informacion Obtenida de: <a href="https://rickandmortyapi.com/" target="_blank">The Rick And Morty API.com</a></p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
