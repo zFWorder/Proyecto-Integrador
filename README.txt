@@ -34,14 +34,12 @@ Estructura del proyecto:
 - index.js — toda la funcionalidad de la app.
 - README.txt — este archivo.
 
-Despliegue (GitHub Pages):
+Despliegue:
 La página está subida aquí:
-https://TU-USUARIO.github.io/NOMBRE-DEL-REPO
-(Editar cuando esté publicado)
+https://zfworder.github.io/Proyecto-Integrador/
 
 Video de presentación:
-https://youtu.be/TU-LINK-AQUI
-(Editar cuando esté subido)
+https://www.youtube.com/watch?v=WVYm-hqvI74
 
 Créditos:
 Proyecto realizado por: (Jhon Alejandro Diaz Penagos)
